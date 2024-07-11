@@ -1,0 +1,25 @@
+
+
+.formulario{
+background-color: rgba(137, 43, 226, 0.788);
+text-align: center;
+text-justify: auto;
+border-style: solid;
+height:500px;
+width: 500px;
+padding: 40px;
+margin: auto;
+border-style:solid ;
+border-radius: 34px;
+}
+.formulario1,
+.formulario2,
+.formulario3{
+margin-left: 50px;
+margin-top:60px ;
+width: 400px;
+height: 50px;
+}
+.boton{
+    margin-top: 30px;
+}

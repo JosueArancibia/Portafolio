@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(rgb(19, 73, 150), #1ba2e6 70%);
+}
+/*llamar clases un punto y el nombre de la clase*/
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+}
+.contenedor > .div,
+.contenedor >.header,
+.contenedor > .Contenido,
+.contenedor > .Sidebar,
+
+.contenedor > .Footer{
+    background: rgb(123, 219, 236);
+    color: mistyrose;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.contenedor .header{
+    background: mediumaquamarine;
+    color: mistyrose;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.contenedor .Contenido{
+    background: mediumaquamarine;
+    color: mistyrose;
+    grid-column: span 2;
+    text-align: justify;
+
+}
+.contenedor .Sidebar{
+    background: mediumaquamarine;
+    color: mistyrose;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.contenedor .Widget-1,
+.contenedor .Widget-2{
+    background: mediumaquamarine;
+    color: mistyrose;
+  height: 100px;
+  text-align: center;
+}
+.contenedor .Footer{
+    background: rgb(116, 224, 165);
+    color: rgb(247, 247, 247);
+    grid-column: span 3;
+}

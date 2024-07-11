@@ -1,0 +1,164 @@
+.body{
+    background-image: url("https://media.istockphoto.com/vectors/golden-blue-geometric-ornament-seamless-pattern-vector-id916433856?b=1&k=20&m=916433856&s=170667a&w=0&h=T_dYD5kbJaaCXuVEcfjLQUTj67Wfy46kFGqPdm1ykzU=");
+
+    background-position:center  ;
+}
+
+.bloque {
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+}
+.header{
+    width: 100%;
+    height:150px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+.nav{
+
+    margin-top:80px ;
+    margin-left: 20px;
+    width: 100%;
+    height: 150px;
+}
+ul,ol{
+    list-style: none;
+  
+}
+.menu li a{
+    
+   border-radius: 8px;
+    margin-top: -6px;
+    background-color:rgba(12, 12, 100, 0.925);;
+    color: rgb(184, 210, 226);
+    width: 100%;
+    text-decoration: none;
+    padding: 5px ;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+    border-top-style: solid;
+    
+    
+    
+
+
+}
+.menu li a:hover{
+   
+background: rgb(16, 43, 75);
+
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right:1px;
+    top: 50px;
+}
+.menu > li{
+    float: left;
+
+}
+.barra{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+  
+    background-color: rgba(12, 12, 100, 0.692);
+}
+.bloque> .contenido,
+.bloque> .sidebar
+{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.bloque .contenido{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    grid-column: span 2;
+    text-align: justify;
+
+ }
+ .bloque .sidebar{
+    background: rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    text-align: justify;
+    
+    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2/4;
+}
+.footer{
+
+    background:  transparent;
+    color: rgb(247, 247, 247);
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+#imagentitular1{
+    width: 400px;
+   height: 500px;
+    display: left;
+}
+#kurt{
+width: 400px;
+height: 500px;
+margin-left: 400px;
+margin-top: -500px;
+
+}
+#vega{
+    width: 400px;
+    height: 380px;
+    margin-left: 400px;
+    margin-top: -380px;
+    
+    }
+#imagentitular2{
+    width: 400px;
+    height: 380px;
+}
+#imagenside{
+    width: 350px;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+    
+    margin-top: 10px;
+}
+.sidebar a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contenido a{
+    color: rgb(221, 176, 107);
+    text-decoration: none;
+}
+.sidebar h5{
+    color: rgb(114, 170, 245);
+}

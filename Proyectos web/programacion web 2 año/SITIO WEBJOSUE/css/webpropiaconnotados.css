@@ -1,0 +1,312 @@
+.body {
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1080/1804/Abstract-picture-symmetry-pattern-fractal_1920x1080.jpg");
+
+    background-position:center  ;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+
+}
+.contenedor1{
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+  
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+
+}
+.contenedor2{
+    width: 90%;
+    max-width: 1300px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,auto);
+
+}
+#logo{
+   
+    width: 200px;
+    height: 150px;
+    margin-left: 502px;
+    margin-top: 10px;
+}
+#header{
+    width: 100%;
+    height:150px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+#menu{
+
+    margin-top:80px ;
+    margin-left: 20px;
+    width: 100%;
+    height: 150px;
+}
+ul,ol{
+    list-style: none;
+  
+}
+.nav li a{
+    
+   border-radius: 8px;
+    margin-top: -6px;
+    background-color:rgba(12, 12, 100, 0.925);;
+    color: rgb(184, 210, 226);
+    width: 100%;
+    text-decoration: none;
+    padding: 10px 72px;
+    display: block;
+    border-top-style: solid;
+    
+    
+    
+
+
+}
+.nav li a:hover{
+   
+background: rgb(12, 61, 116);
+
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right:1px;
+    top: 100px;
+}
+.nav > li{
+    float: left;
+
+}
+.bklogo{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+  
+    background-color: rgba(12, 12, 100, 0.692);
+}
+.encabezado1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    
+  
+    background-color: rgba(12, 12, 100, 0.692);
+
+}
+.encabezado2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    
+  
+    background-color: rgba(12, 12, 100, 0.692);
+
+}
+.contenedor >.png,
+.contenedor > .Contenido,
+.contenedor > .Sidebar,
+.contenedor > .Footer{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.contenedor1 >.png1,
+.contenedor1>.encabezado1,
+.contenedor1>.footer1,
+.contenedor1 > .Contenido1,
+.contenedor1 > .Sidebar1{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.contenedor2 >.png2,
+.contenedor2>.div,
+.contenedor2>.footer2,
+.contenedor2>.encabezado2,
+.contenedor2> .Contenido2,
+.contenedor2 > .Sidebar2{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+ .contenedor .Contenido{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    grid-column: span 2;
+    text-align: justify;
+
+ }
+ .contenedor1.Contenido1{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    
+    grid-column: span 2;
+    grid-row: span 1;
+    
+  
+    text-align: justify;
+
+}
+.contenedor2.Contenido2{
+    background:  rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: justify;
+}
+.contenedor.png{
+background: transparent;
+grid-column: span 1;
+grid-row: 3/4;
+}
+.contenedor1.png1{
+background: transparent;
+grid-column: span 1;
+grid-row: span 1;
+}
+.contenedor2.png2{
+    background: transparent;
+    grid-column: span 1;
+    grid-row: span 1;
+    }
+.contenedor .Sidebar{
+    background: rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 2/4;
+}
+.contenedor1.Sidebar1{
+    background: rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+   grid-column: span 1;
+   grid-row: span 2;
+   
+ 
+}
+.contenedor2.Sidebar2{
+    background: rgba(12, 12, 100, 0.692);
+    color: mistyrose;
+    grid-column: 3/4;
+   grid-row: 2/4;
+}
+.contenedor .Footer{
+    background:  transparent;
+    color: rgb(247, 247, 247);
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.contenedor1 .Footer1{
+    background:  transparent;
+    color: rgb(247, 247, 247);
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+.contenedor2 .Footer2{
+    background:  rgba(12, 12, 100, 0.692);
+    color: rgb(247, 247, 247);
+    grid-column: span 3;
+}
+.informacion li p{
+    margin-left:-40px ;
+    border-style: solid;
+    padding: 10px 10px;
+    background-color: rgba(255, 22, 22, 0.685);
+}
+.informacion1 li p{
+    margin-left:-40px ;
+    border-style: solid;
+    padding: 10px 10px;
+    background-color: rgba(255, 22, 22, 0.685);
+}
+.informacion2 li p{
+    margin-left:-40px ;
+    border-style: solid;
+    padding: 10px 10px;
+    background-color: rgba(255, 22, 22, 0.685);
+}
+#videoynwi{
+    border-style: solid;
+
+}
+#ynwi{
+    width: 350px;
+    height: 450px;
+}
+#videovan{
+    border-style: solid;
+ grid-row:3/4 ;
+ width: 754px;
+   height: 488px;
+
+}
+ #videojim{
+  
+    grid-row:3/4 ;
+    width: 754px;
+    height: 488px;
+
+
+}
+
+#van{
+    width: 350px;
+    height: 450px;
+}
+#jimmy{
+    width: 350px;
+    height: 450px;
+}
+#jim{
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+#vh1{
+    height: 300px;
+    width: 700px;
+
+}
+
+
+
+
+
+
+
+
+
+

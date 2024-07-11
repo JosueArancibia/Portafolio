@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Cambiamos el color de fondo a negro */
+            color: red; /* Cambiamos el color del texto a rojo */
+        }
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            background-color: #000; /* Cambiamos el color de fondo del contenedor a negro */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #333; /* Cambiamos el color de fondo de los campos de entrada a negro */
+            color: red; /* Cambiamos el color del texto de los campos de entrada a rojo */
+        }
+        input[type="submit"] {
+            background-color: #b00; /* Cambiamos el color de fondo del botón a rojo oscuro */
+            color: white; /* Cambiamos el color del texto del botón a blanco */
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #700; /* Cambiamos el color de fondo del botón al pasar el cursor sobre él */
+        }
+        label {
+            color: red; /* Cambiamos el color del texto de las etiquetas a rojo */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="buscador.html" method="get">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

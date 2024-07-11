@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda y Navegación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Cambiamos el color de fondo a negro */
+            color: red; /* Cambiamos el color del texto a rojo */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Para que la posición del icono sea relativa al contenedor */
+        }
+        h2 {
+            margin-top: 0;
+        }
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Agregamos margen cero para evitar el espacio extra */
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        /* Estilos para la barra de menú */
+        .menu {
+            background-color: black;
+            padding: 10px 0; /* Espaciado interno en la barra de menú */
+            text-align: center; /* Alineamos el texto al centro */
+            margin-bottom: 20px; /* Agregamos margen inferior */
+        }
+        .menu a {
+            color: red; /* Color del texto de los enlaces */
+            text-decoration: none; /* Quitamos la subrayado de los enlaces */
+            padding: 10px 20px; /* Espaciado interno en los enlaces */
+            margin-right: 10px; /* Margen derecho entre los enlaces */
+        }
+        .menu a:hover {
+            color: white; /* Cambiamos el color del texto al pasar el cursor sobre los enlaces */
+        }
+        /* Estilos para el carrusel */
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            scrollbar-width: none; /* Para navegadores que no soportan el estilo del scrollbar */
+            -ms-overflow-style: none; /* Para navegadores que no soportan el estilo del scrollbar */
+            margin-top: 20px; /* Agregamos margen superior al carrusel */
+        }
+        .carousel::-webkit-scrollbar {
+            display: none; /* Oculta el scrollbar en navegadores webkit */
+        }
+        .carousel-item {
+            flex: 0 0 auto;
+            width: 300px; /* Ancho fijo para cada elemento del carrusel */
+            margin-right: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* Estilo para el ícono de usuario */
+        .user-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: #007bff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="perfilusuario.html" class="user-icon"><i class="fas fa-user"></i></a> <a href="login.html">cerrar sesion</a>
+        <!-- Barra de menú -->
+        <div class="menu">
+            <a href="#">Inicio</a>
+        </div>
+        <h2>Barra de Búsqueda</h2>
+        <form action="#" method="get" style="margin-bottom: 20px;"> <!-- Agregamos margen inferior al formulario -->
+            <input type="text" name="query" placeholder="Buscar películas, programas de televisión, etc." required>
+            <input type="submit" value="Buscar">
+        </form>
+        
+        <!-- Carrusel de imágenes con enlaces -->
+        <div class="carousel">
+            <div class="carousel-item">
+                <a href="reprod.html"><img src="imagenes/netfliz-carrusel.png" alt="Imagen 1"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="reprod.html"><img src="imagenes/netfliz-carrusel.png" alt="Imagen 2"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="reprod.html"><img src="imagenes/netfliz-carrusel.png" alt="Imagen 3"></a>
+            </div>
+            <!-- Agrega más imágenes con enlaces según sea necesario -->
+        </div>
+    </div>
+</body>
+</html>

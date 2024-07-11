@@ -1,0 +1,171 @@
+Pablo leon moreno-
+17-05
+sumativa1-1/6,2 -22/6,3 -13/7
+
+Pablo.Leonmo@correoaiep.cl
+
+partes de proyecto informatico
+-planificacion, herramientas informaticas, contenido de calida
+proyecto informatico-
+esfuerzo temporal para lograr un producto
+-responde a necesidades
+
+recuros para cumplir el ciclo devida-
+onocimientos, hablidades, personas capacitadas, comunicacion entre las partes, ej-el cliente y autocritica
+
+ciclo de vida-concepcion-desarrollo-implementacion-cierre
+concepcion-idea que soluciona , reformular proyecto previos, necesidad real
+plan de trabajo con objetivos claros-principal, secundarios, plan claro para el cliente:
+soluciones reales, analabeta, necesita ser capacitado sin subestimarlo,explicar plan en lenguaje comun, 
+participacion en el proyecto, motivar para que participe
+ 
+
+
+recursos-personal, materiales,equipo y fondos
+15% o 25% modificaciones del precio original
+
+
+competencias necesarias-
+comunicacion entre los pares, liderazgo, motivacion, coordinacion entre las partes del equipo, negociacion de conocimientos, precio.       capacitacion }
+
+planificacion(objetivos,definicion,recursos necesarios,organizacion)-->programacion(secuencia de actv, programacion de recursos, asignacion de recursos)-->
+ejecucion del proyecto(codificacion)-->control del proyecto(costes,calidad,tiempo)>
+
+productos software-intangible, 100% confiabilidad inviable, no existe un proceso de sowtware unviersal.
+
+slucion-requerimientos-empresa-idea
+tecnica-procedimiento o forma particular
+
+tecncias desarrollo de software
+
+-tecnicas recopilacion de datos- obtner informacion para el desarrollo-
+fuente primaria:realidad-fuente secunadaria:
+investigaciones pasadas(observacion[observar sin que lo que observas se de cuenta]-[observar sin intervenir, 
+pero con el observado consiente de ser obsrvado]-[obsrvando e interactuando]{objeto a observar, 
+objetivo,determinar el registro de datos,realizar procceso de observar})
+
+
+
+-tecnica costo beneficio-
+-tec planificacion y control de proyectos
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18-05
+
+
+*entrevista, dialogo cara a cara , de un tema determinado
+-Estructuradas-guia prediseñada de preguntas
+-no estructuradas-no tiene guia de preguntas, pero sin perder la coherencia
+-Mixtas-las dos anteriores
+
+*Encuesta,obtener inf de un grupo o de sujetos acerca de si mismos
+-<no es una observacion directa
+-preparado para la investigacion
+-permite la aplicacion masiva 
+-permite  llegar a los aspectos subejetivos de la sociedad>
+[Encuestas exaustivas-abarca todas las unidades estadisticas
+Encuestas directas e indirectas-la unidad estadistica se observa a traves de la investigacion propuesta
+Encuestas sibre hechos y opinion-averiguar lo que el publico en general piensa]
+
+*Cuestionario, modalidad de encuesta realizada de forma escrita, son preguntas que responde el encuestado
+-preguntas->hechos->investigacion->Encuestados
+{Cuestionario preguntas abiertas-No ofrecen opciiones de respuestas
+C.preguntas cerradas-establece opciones de respuesta}
+
+*Revision documental, interpretacion criticas recuperacion de datos secundarios 
+{}
+
+----
+*Tec.COSTO BENEFICIO
+-tec.analitica que enumera y compara el costo neto con los beneficios
+{COSTO-precio del software+infraestrcutura+implantacion+entrenamiento=costo total de la solucion(cts)
+BENEFICIOS-mejora de procesos+disponer de sistemas de informacion+personal motivado+intangibles[comodidad,intuitividad,accesibilidad, diseño ]=bts(beneficio total de la solucion)
+BENFICIOS>COSTOS(ta bien)
+beneficios<costos(notabien)}
+
+*TEC.PLANIFICACION Y CONTROL DE PROYECTO
+-Comprende serie de procedimiento
+{OBJETO-pasos a seguir
+ALCANCE-limite
+ENTRADAS-planificacion de actividades para desarrollar un software
+SALIDAS-
+DESARROLLO
+[planificacion(descomponer el proyecto en actividades)-programacion(grafico de tiempo para cada actividad )-control(diagrama de flechas y grafica de tiempo )]
+}
+
+
+
+HERRAMIENTAS PARA EL DESARROLLO DE SOFTWARE
+-solucion para los proyectos de software, mucho tiempo
+(CASE-mejorar calidad
+4GL-mejorar productividad)
+
+
+INVESTIGAR REPOSITORIO!!!!!!!!!!
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+15-06-22
+
+Unidad2-
+investigacion 
+
+
+Planificacion y control de proyectos
+
+direccion de proyectos- forma eficaz de agrupar personas y recursos fisicos necesarios por periodo limitado
+proyecto-estructura de organizacion temproal diseñada para alcanzar resultados
+1
+2
+3
+4
+5
+Planificacion-establece objetivos, recursos estrcutura de subdivison de trabajo, y organizacion
+programacion-asigna personas dineros y suministros a actividades, tiempos de inicio y fin, y red(calculo cpm, calcular tiempos en relacion con el costo beneficio)
+control-vigilar recursos, supervisar, comparar, revisar, poner en marcha
+
+
+programacion-
+diagrama de gantt-metodo habitual, resumen de las situacion del proyecto calcula la duracion y el costo
+son mas complejos el cpm y el pert
+
+PUNTO MUERTO/UMBRAL DE RENTABILIDAD o CPM
+Permite conocer el volumen de ventas que es necesario para que la empresa 
+PERT-
+fases para la planificacion de un proyecto
+tiempo optimista(a)-nada sale mal
+tiempo mas probable(M)-sperado realmente
+tiempo pesimista(b)-todo sale mal
+estimar el tiem po estimado
+tiempo estimado=a+4m+b/6
+
+
+Incorporar al informe
+-portada
+-intro
+-equipo desarrollador
+-resumen
+-diagnostico:definicion de problema-alcance del problema
+-objetivos general primario y obj especifico primario, onjetivo general secundario, objetivo especifico secundario
+-levantamiento de requerimientos: Tecnicas de recopilacion de datos aplicada,
+ analisis jerarquico(funcionales y no funcionales, plantilla de ordenamiento, ej-identificacion, nombre,descripcion,dependecias(de que requerimiento depende),prioridad,estabilidad(si es necesario), criterio de exito(describir el exito del requerimiento )))).
+-marco metodologico-metodologia de desarrollo a implementar, estudio de mercado
+-planificacion:carta gantt
+-casos de usos-
+-modelo entidad relacion
+
+
+
+-
+
+
+
+
+
+
+
+
+

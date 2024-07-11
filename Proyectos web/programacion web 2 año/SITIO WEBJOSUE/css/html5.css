@@ -1,0 +1,36 @@
+body{
+    background-color: transparent;
+}
+.negro{
+    color: black;
+}
+.primero{
+
+color: red;
+}
+
+.tercero{
+    
+    color: blue
+}
+
+.quinto{
+    
+    color:green
+}
+
+.septimo{
+    color: rgb(118, 3, 141); 
+}
+#vio{
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  border-style: solid ;
+}
+.svio{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fredgol.cl%2Ftiempolibre%2FCobra-Kai-4--Marcianeke-resume-en-su-estilo-la-serie-de-Netflix-para-recibir-la-cuarta-temporada-20211231-0102.html&psig=AOvVaw0Fto9zRCwj2G2W2-pY9z1V&ust=1649791735443000&source=images&cd=vfe&ved=0CAcQjRxqFwoTCPCf1KffjPcCFQAAAAAdAAAAABAD);
+}
+
+    
+    

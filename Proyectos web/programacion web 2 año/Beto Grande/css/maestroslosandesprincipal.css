@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://media.discordapp.net/attachments/879742641024139279/969385448147411005/1.jpg?width=714&height=402");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: justify;
+
+}
+body h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-white2{
+    width: 450px;
+    height: 50px;
+    border:solid rgb(0, 0, 0);
+    background-color: rgb(255, 251, 0);
+    margin-left: 420px;
+    font-family:fantasy;
+    border-radius: 10px;
+
+}
+
+.bg-white3{
+    width: 250px;
+    height: 30px;
+
+    margin-left: 520px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(178, 166, 0)
+
+}

@@ -1,0 +1,246 @@
+body{
+    background: rgb(223, 188, 188) ;
+}
+.Bandera{
+    width: 700px;
+    height: 400px;
+}
+.rojo{
+background-color: red;
+width: 700px;
+height: 200px;
+}
+.blanco{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: -200px;
+    } 
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+        }
+#estrella{
+    width:100px;
+    height:100px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Banderaalemania{
+    width: 700px;
+    height: 400px;
+    margin-left: 800px;
+    margin-top: -450px;
+}
+.rojoa{
+background-color: red;
+width: 700px;
+height: 133px;
+}
+.amarillo{
+    background-color: rgb(230, 255, 5);
+    width: 700px;
+    height: 133px;
+    
+    } 
+.negro{
+    background-color: rgb(0, 0, 0);
+    width: 700px;
+    height: 133px;
+        }
+
+
+        
+
+.Banderafrancia{
+            width: 700px;
+            height: 400px;
+            margin-left: 1600px;
+    margin-top: -450px;
+        }
+.rojofrances{
+        background-color: red;
+        width: 233px;
+        height: 400px;
+        margin-left: 233px;
+        margin-top: -400px;
+        }
+.azulfrances{
+            background-color: rgb(5, 22, 255);
+            width: 233px;
+            height: 400px;
+            
+            } 
+.blancofrances{
+            background-color: rgb(255, 255, 255);
+            width: 233px;
+            height: 400px;
+            margin-left: 466px;
+            margin-top: -400px;
+                }
+.Banderajapon{
+   
+    width: 700px;
+    height: 400px;
+    margin-left: 2400px;
+    margin-top: -450px;
+}        
+
+.blancojapones {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 400px;
+}
+.rojojapones {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: -290px;
+    border-radius: 200px;
+}        
+        
+.Banderacanada{
+   
+    width: 700px;
+    height: 400px;
+    margin-left: 2400px;
+
+}        
+
+.blancocanada {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+
+}
+.rojocanada1 {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    margin-top: -400px;
+
+    
+   
+}        
+.rojocanada2 {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: -400px;
+    
+}        
+#hoja{
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.Banderaperu{
+   
+    width: 700px;
+    height: 400px;
+    margin-left: 1600px;
+}        
+
+.blancoperu {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+
+}
+.rojoperu1 {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    margin-top: -400px;
+
+    
+   
+}        
+.rojoperu2 {
+    background-color: red;
+    width: 200px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: -400px;
+    
+    
+}            
+.Banderabarbados{
+   
+    width: 700px;
+    height: 400px;
+   
+}        
+
+.amarillob {
+    background-color: rgb(255, 251, 0);
+    width: 300px;
+    height: 400px;
+    margin-left: 200px;
+
+}
+.azul1 {
+    background-color: rgb(17, 0, 255);
+    width: 200px;
+    height: 400px;
+    margin-top: -400px;
+
+    
+   
+}        
+.azul2 {
+    background-color: rgb(0, 4, 255);
+    width: 200px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: -400px;
+    
+    
+}            
+#tri{
+    margin-top: 90px;
+    margin-left: 50px;  
+}        
+
+.Banderachina{
+    height: 400px;
+    width: 700px;
+    background-color: red;
+}
+#estrella1{
+    height: 125px;
+    width: 125px;
+    margin-top: 25px;
+    margin-left:25px ;
+}
+#estrella2{
+    height: 60px;
+    width: 60px;
+    margin-top: px;
+    margin-left:25px ;
+}
+#estrella3{
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+    margin-left:25px ;
+}
+#estrella4{
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+    margin-left:25px ;
+}
+#estrella5{
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+    margin-left:25px ;
+}

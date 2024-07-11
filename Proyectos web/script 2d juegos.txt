@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Ejemplo</title></head>
+<body>
+<canvas id="micanvas" width="250" height="250">
+<img id="laimagen" alt="" />
+</canvas>
+<script>
+window.onload = function(){
+var imagen = new Image();
+imagen.src = "./laimagen.jpg";
+// Esperará a que la imagen se cargue.
+ imagen.onload = function () {
+//Agrega la imagen cargada al canvas.
+ var elcanvas = document.getElementById("micanvas");
+var ctx = elcanvas.getContext("2d");
+ctx.drawImage(imagen,0,0);
+ }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.con{
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contenedor{
+    width: 50%;
+    height: 40%;
+    margin: center;
+}
+.contenedor img{
+    width: 08%;
+    height: 300px;
+}

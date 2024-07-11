@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Cambiamos el color de fondo a negro */
+            color: red; /* Cambiamos el color del texto a rojo */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Estilos para el menú */
+        .menu {
+            background-color: black;
+            padding: 10px 0; /* Espaciado interno en la barra de menú */
+            text-align: center; /* Alineamos el texto al centro */
+            margin-bottom: 20px; /* Agregamos margen inferior */
+        }
+        .menu a {
+            color: red; /* Color del texto de los enlaces */
+            text-decoration: none; /* Quitamos la subrayado de los enlaces */
+            padding: 10px 20px; /* Espaciado interno en los enlaces */
+            margin-right: 10px; /* Margen derecho entre los enlaces */
+        }
+        .menu a:hover {
+            color: white; /* Cambiamos el color del texto al pasar el cursor sobre los enlaces */
+        }
+        .user-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: #007bff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="perfilusuario.html" class="user-icon"><i class="fas fa-user"></i></a> <a href="login.html">cerrar sesion</a> <!-- Ícono de usuario con enlace -->
+
+        <!-- Barra de menú -->
+        <div class="menu">
+            <a href="buscador.html">Inicio</a>
+        </div>
+        <h2>Perfil de Usuario</h2>
+        <form id="profile-form">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="address">Dirección:</label><br>
+            <input type="text" id="address" name="address"><br>
+            <label for="preferences">Preferencias de Visualización:</label><br>
+            <select id="preferences" name="preferences">
+                <option value="default">Selecciona una opción</option>
+                <option value="HD">HD</option>
+                <option value="SD">SD</option>
+                <option value="4K">4K</option>
+            </select><br><br>
+            <input type="submit" value="Guardar Cambios">
+        </form>
+        
+        <h2>Historial de Visualización</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Tipo</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody id="viewing-history">
+                <!-- Aquí se mostrarán las entradas del historial de visualización -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Script para cargar el historial de visualización desde una fuente de datos -->
+    <script>
+        // Suponiendo que viewingHistory es un array de objetos con las entradas del historial de visualización
+        var viewingHistory = [
+            { title: "Película 1", type: "Película", date: "2024-03-25" },
+            { title: "Serie 1", type: "Serie", date: "2024-03-24" },
+            { title: "Película 2", type: "Película", date: "2024-03-23" }
+        ];
+
+        var historyTable = document.getElementById('viewing-history');
+
+        viewingHistory.forEach(function(entry) {
+            var row = historyTable.insertRow();
+            row.insertCell(0).textContent = entry.title;
+            row.insertCell(1).textContent = entry.type;
+            row.insertCell(2).textContent = entry.date;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+23-03
+
+portada 
+indice
+introduccion
+obj principal.
+obj secundario
+introduccion equipo informatico, funcion su nombre
+
+
+metodologia de desarrollo
+requerimientos funcionaes y no funcionales
+alcanze del proyecto, riesgo que contiene
+carta gantt
+
+(ir presentando avances por semanas/miercoles)
+venir semi formales/formales a la presentación
+
+titulos: arial/interlineado 1.5/titulos 16/subtitulos 14/contenido 12 impreso
+
+
+
